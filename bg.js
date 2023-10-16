@@ -1,6 +1,8 @@
 const container=document.querySelector(".container");
 const body =document.querySelector("body");
 
+// div creation
+
 let divSec=()=>{
   return ( container.innerHTML=
   `<div class="sec1">
@@ -16,6 +18,9 @@ const color1=document.querySelector("#color1");
 const color2=document.querySelector("#color2");
 const span=document.querySelector("span");
 const btn=document.querySelector("button");
+
+// Text to show hex values
+
 let createNode=()=>{
     let result=document.createElement("h4");
     result.innerHTML=`The linear gradient colors are ${color1.value} ,${color2.value}`;
@@ -44,6 +49,7 @@ let bodyColor=()=>{
     body.style.background=`linear-gradient(to right, ${color1.value}, ${color2.value})`;
 }
 
+// Random Hex values Generation
 
 let hexCodegenerate=()=>{
     let letters = "0123456789ABCDEF";

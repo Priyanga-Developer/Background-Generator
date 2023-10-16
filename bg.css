@@ -19,8 +19,8 @@ body{
 h1{
     margin-top: 50px;
 }
-.container .sec1{
-    padding-top: 3rem;
+.container p{
+    padding: 30px;
 }
 
 .sec1 input{
@@ -28,12 +28,10 @@ h1{
 }
 
 button{
-  
     background-color:black;
     border-radius: 10px;
     color: white;
     padding: 10px;
-
 }
 h4{
     padding: 23px;

@@ -6,3 +6,5 @@ Here is a Random Background Generator!
 
 If the user choose the colors ,it automatically changes the background colour.
 A random hex color values are generated if button clicked.
+
+[Click here!] (https://priyanga-developer.github.io/Background-Generator/)
